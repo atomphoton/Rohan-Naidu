@@ -1,0 +1,237 @@
+body {
+  background-color: #fbf6f0;
+  color: #4e8d7c;
+  font-family: 'Pacifico', cursive;
+  padding: 0;
+  margin: 0;
+}
+
+.right-cloud {
+  width: 20%;
+  position: absolute;
+  right: 12%;
+  top: 9%;
+}
+
+.top-box {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.my-name {
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+
+.my-discription {
+  margin: 0;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.profile-img {
+  width: 30%;
+  text-align: left;
+  margin-top: 5%;
+  margin-left: 10%
+}
+
+.hello {
+  margin-bottom: 0;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
+}
+
+.about-me {
+  position: absolute;
+  right: 15%;
+  top: 21%;
+  font-size: 10px;
+  width: 40%
+}
+
+.left-cloud {
+  width: 20%;
+  position: absolute;
+  left: 12%;
+}
+
+.top-bar {
+  background-color: #00917c;
+  margin-bottom: 50px;
+  position: fixed;
+  top: 0;
+  padding: 0;
+  width: 100%
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-color: #a3d2ca;
+  border-style: dotted none none;
+  width: 25%;
+  border-width: 5px;
+}
+
+.skills {
+  width: 100%;
+  text-align: center;
+}
+
+.computer {
+  float: left;
+  border-radius: 50px;
+  width: 20%
+}
+
+.code-discription {
+  position: relative;
+  top: 10px;
+  text-align: left;
+}
+
+.chillies {
+  position: relative;
+  top: 0;
+  float: right;
+  border-radius: 50px;
+  width: 20%
+}
+
+.cooking-discription {
+  position: relative;
+  top: 10px;
+  text-align: left;
+}
+
+.bottom-container {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Pacifico', cursive;
+  width: 100%;
+  margin: 0;
+}
+
+.bb {
+  margin: 5%;
+  font-family: sans-serif;
+  color: #dddddd;
+}
+
+.bb1 {
+  margin: 3%;
+  font-family: sans-serif;
+  color: #dddddd;
+}
+
+.footer-link {
+  margin: 1%;
+  font-family: sans-serif;
+  color: #00917c;
+}
+
+@media only screen and (min-width: 900px) {
+  .hello {
+    margin-bottom: 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+  }
+
+  .left-cloud {
+    display: none;
+  }
+
+  .about-me {
+    font-size: 1rem;
+    width: 40%
+  }
+
+  .profile-img {
+    width: 20%;
+  }
+
+  .computer {
+    margin-right: 5%;
+    width: 15%;
+  }
+
+  .code-discription {
+    position: relative;
+    top: 15px;
+    text-align: left;
+    font-size: 1.2rem;
+    margin: 5%;
+  }
+
+  .chillies {
+    width: 15%;
+    margin-left: 5%
+  }
+
+  .cooking-discription {
+    font-size: 1.2rem;
+    margin: 5%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .hello {
+    margin-bottom: 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+  }
+
+  .left-cloud {
+    display: none;
+  }
+
+  .about-me {
+    margin-top: 5%;
+    font-size: 1rem;
+    width: 40%
+  }
+
+  .profile-img {
+    width: 15%;
+  }
+
+  .computer {
+    margin-right: 5%;
+    width: 15%;
+  }
+
+  .code-discription {
+    position: relative;
+    top: 15px;
+    text-align: left;
+    font-size: 1.2rem;
+    margin: 5%;
+  }
+
+  .chillies {
+    width: 15%;
+    margin-left: 5%
+  }
+
+  .cooking-discription {
+    font-size: 1.2rem;
+    margin: 5%;
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+  .profile-img {
+    width: 13%;
+    margin-right: 10%;
+    width: 13%;
+  }
+
+  .chillies {
+    width: 13%;
+    margin-right: 5%;
+  }
+}
